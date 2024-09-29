@@ -1,0 +1,26 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+.imagem {
+  width: 100%;
+  height: 100vh;
+  background-image: url('./tyler-van-der-hoeven-_ok8uVzL2gI-unsplash.jpg');
+  background-size: 100%;
+  background-position: center;
+  background-attachment: fixed;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container {
+  width: 600px;
+  padding:200px;
+  flex-direction: column;
+  text-align: justify;
+  background-size: cover;
+  background-color: whitesmoke;
+  background-position: center;
+}
